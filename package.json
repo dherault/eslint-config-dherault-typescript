@@ -1,0 +1,37 @@
+{
+  "name": "eslint-config-dherault-typescript",
+  "version": "1.0.0",
+  "description": "A modern TypeScript Eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dherault/eslint-config-dherault-typescript.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "dherault",
+    "typescript"
+  ],
+  "author": "David Hérault <dherault@gmail.com> (https://github.com/dherault)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dherault/eslint-config-dherault-typescript/issues"
+  },
+  "homepage": "https://github.com/dherault/eslint-config-dherault-typescript#readme",
+  "dependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/preset-env": "^7.19.4",
+    "@babel/preset-react": "^7.18.6",
+    "@types/node": "^18.11.3",
+    "@typescript-eslint/eslint-plugin": "^5.40.1",
+    "@typescript-eslint/parser": "^5.40.1",
+    "eslint": "^8.26.0",
+    "eslint-config-dherault": "^1.7.5",
+    "typescript": "^4.8.4"
+  }
+}
