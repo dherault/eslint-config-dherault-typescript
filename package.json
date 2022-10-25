@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dherault-typescript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A modern TypeScript Eslint config",
   "main": "index.js",
   "scripts": {
