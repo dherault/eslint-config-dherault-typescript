@@ -8,11 +8,12 @@ A modern TypeScript Eslint config
 
 ## Usage
 
-`.eslintrc.json`:
-```json
-{
-  "extends": "dherault-typescript"
-}
+`eslint.config.ts`:
+```js
+import config from 'eslint-config-dherault-typescript'
+
+export default config
+
 ```
 
 ## License

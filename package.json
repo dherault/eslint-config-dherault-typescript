@@ -1,11 +1,8 @@
 {
   "name": "eslint-config-dherault-typescript",
-  "version": "1.5.4",
+  "version": "2.0.0",
   "description": "A modern TypeScript Eslint config",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dherault/eslint-config-dherault-typescript.git"
@@ -23,17 +20,28 @@
   },
   "homepage": "https://github.com/dherault/eslint-config-dherault-typescript#readme",
   "dependencies": {
-    "@babel/core": "^7.28.0",
-    "@babel/eslint-parser": "^7.28.0",
-    "@babel/preset-env": "^7.28.0",
-    "@babel/preset-react": "^7.27.1",
-    "@types/node": "^24.2.1",
-    "@typescript-eslint/eslint-plugin": "^7.17.0",
-    "@typescript-eslint/parser": "^7.17.0",
-    "eslint-config-dherault": "^1.15.2",
-    "typescript": "^5.9.2"
+    "@eslint/js": "^9.39.4",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-tailwindcss-order": "^2.1.2",
+    "eslint-plugin-type-imports": "^1.0.0",
+    "eslint-plugin-unused-imports": "^4.4.1",
+    "typescript-eslint": "^8.58.2"
   },
   "peerDependencies": {
-    "eslint": "^8.0.0"
+    "eslint": "^9.39.4"
+  },
+  "overrides": {
+    "eslint-plugin-tailwindcss-order": {
+      "eslint": "$eslint"
+    },
+    "eslint-plugin-type-imports": {
+      "eslint": "$eslint"
+    }
+  },
+  "devDependencies": {
+    "jiti": "^2.6.1"
   }
 }
