@@ -2,7 +2,16 @@
   "name": "eslint-config-dherault-typescript",
   "version": "2.0.0",
   "description": "A modern TypeScript Eslint config",
-  "main": "index.js",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dherault/eslint-config-dherault-typescript.git"
@@ -42,6 +51,7 @@
     }
   },
   "devDependencies": {
-    "jiti": "^2.6.1"
+    "jiti": "^2.6.1",
+    "typescript": "^6.0.2"
   }
 }

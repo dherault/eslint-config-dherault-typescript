@@ -10,7 +10,7 @@ import unusedImports from 'eslint-plugin-unused-imports'
 import globals from 'globals'
 import tseslint from 'typescript-eslint'
 
-export default defineConfig([
+const eslintConfigDheraultTypescript = defineConfig([
   {
     name: 'TypeScript start',
     files: ['**/*.{ts,tsx}'],
@@ -244,3 +244,5 @@ export default defineConfig([
     },
   },
 ])
+
+export default eslintConfigDheraultTypescript

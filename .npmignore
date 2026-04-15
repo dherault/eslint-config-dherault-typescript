@@ -1,2 +1,4 @@
 .vscode
 eslint.config.ts
+src
+tsconfig.json
