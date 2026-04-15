@@ -1,6 +1,7 @@
 import jsPlugin from '@eslint/js'
 import stylistic from '@stylistic/eslint-plugin'
 import { defineConfig } from 'eslint/config'
+import reactHookDependencies from 'eslint-plugin-format-react-hook-dependencies'
 import importPlugin from 'eslint-plugin-import'
 import pluginReact from 'eslint-plugin-react'
 import reactHooks from 'eslint-plugin-react-hooks'
@@ -46,6 +47,7 @@ const eslintConfigDheraultTypescript = defineConfig([
   reactHooks.configs.flat.recommended,
   tailwindCssOrder.configs.recommended,
   typeImports.configs.recommended,
+  reactHookDependencies.configs.recommended,
   stylistic.configs.customize({
     indent: 2,
     quotes: 'single',

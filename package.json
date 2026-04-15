@@ -31,6 +31,7 @@
   "dependencies": {
     "@eslint/js": "^9.39.4",
     "@stylistic/eslint-plugin": "^5.10.0",
+    "eslint-plugin-format-react-hook-dependencies": "^1.0.0",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^7.0.1",
@@ -47,6 +48,9 @@
       "eslint": "$eslint"
     },
     "eslint-plugin-type-imports": {
+      "eslint": "$eslint"
+    },
+    "eslint-plugin-format-react-hook-dependencies": {
       "eslint": "$eslint"
     }
   },
