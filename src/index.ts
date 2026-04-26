@@ -39,6 +39,7 @@ const eslintConfigDheraultTypescript = defineConfig([
       'no-useless-return': 'error',
       'object-shorthand': 'error',
       'prefer-destructuring': ['error', { object: true }],
+      'no-restricted-imports': ['error', { patterns: ['.*'] }],
       eqeqeq: 'error',
     },
   },
