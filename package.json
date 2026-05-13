@@ -31,15 +31,16 @@
   "dependencies": {
     "@eslint/js": "^9.39.4",
     "@stylistic/eslint-plugin": "^5.10.0",
-    "eslint-plugin-format-react-hook-dependencies": "^3.0.0",
+    "eslint-plugin-format-react-hook-dependencies": "^4.0.0",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-single-line-imports": "^1.0.1",
     "eslint-plugin-tailwindcss-order": "^2.1.2",
     "eslint-plugin-type-imports": "^1.0.0",
     "eslint-plugin-unused-imports": "^4.4.1",
     "react-doctor": "^0.1.6",
-    "typescript-eslint": "^8.59.2"
+    "typescript-eslint": "^8.59.3"
   },
   "peerDependencies": {
     "eslint": "^9.39.4"
@@ -51,12 +52,15 @@
     "eslint-plugin-type-imports": {
       "eslint": "$eslint"
     },
+    "eslint-plugin-single-line-imports": {
+      "eslint": "$eslint"
+    },
     "eslint-plugin-format-react-hook-dependencies": {
       "eslint": "$eslint"
     }
   },
   "devDependencies": {
-    "jiti": "^2.6.1",
+    "jiti": "^2.7.0",
     "typescript": "^6.0.3"
   }
 }
