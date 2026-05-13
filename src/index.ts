@@ -10,7 +10,6 @@ import tailwindCssOrder from 'eslint-plugin-tailwindcss-order'
 import typeImports from 'eslint-plugin-type-imports'
 import unusedImports from 'eslint-plugin-unused-imports'
 import globals from 'globals'
-import reactDoctor from 'react-doctor/eslint-plugin'
 import tseslint from 'typescript-eslint'
 
 const eslintConfigDheraultTypescript = defineConfig([
@@ -48,7 +47,6 @@ const eslintConfigDheraultTypescript = defineConfig([
   pluginReact.configs.flat.recommended,
   reactHooks.configs.flat.recommended,
   reactHookDependencies.configs.recommended,
-  reactDoctor.configs.recommended,
   typeImports.configs.recommended,
   singleLineImports.configs.recommended,
   tailwindCssOrder.configs.recommended,
