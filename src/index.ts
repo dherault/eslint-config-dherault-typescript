@@ -20,7 +20,6 @@ const eslintConfigDheraultTypescript = defineConfig([
     plugins: {
       js: jsPlugin,
       import: importPlugin,
-      '@stylistic': stylistic,
       'unused-imports': unusedImports,
     },
     extends: [
