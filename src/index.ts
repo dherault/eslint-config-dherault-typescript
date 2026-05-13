@@ -5,6 +5,7 @@ import reactHookDependencies from 'eslint-plugin-format-react-hook-dependencies'
 import importPlugin from 'eslint-plugin-import'
 import pluginReact from 'eslint-plugin-react'
 import reactHooks from 'eslint-plugin-react-hooks'
+import singleLineImports from 'eslint-plugin-single-line-imports'
 import tailwindCssOrder from 'eslint-plugin-tailwindcss-order'
 import typeImports from 'eslint-plugin-type-imports'
 import unusedImports from 'eslint-plugin-unused-imports'
@@ -46,9 +47,10 @@ const eslintConfigDheraultTypescript = defineConfig([
   tseslint.configs.recommended,
   pluginReact.configs.flat.recommended,
   reactHooks.configs.flat.recommended,
-  tailwindCssOrder.configs.recommended,
   typeImports.configs.recommended,
+  singleLineImports.configs.recommended,
   reactHookDependencies.configs.recommended,
+  tailwindCssOrder.configs.recommended,
   stylistic.configs.customize({
     indent: 2,
     quotes: 'single',
