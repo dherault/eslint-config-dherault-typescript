@@ -36,10 +36,10 @@
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-single-line-imports": "^1.0.1",
-    "eslint-plugin-tailwindcss-order": "^2.2.0",
+    "eslint-plugin-tailwindcss-order": "^3.0.0",
     "eslint-plugin-type-imports": "^1.0.0",
     "eslint-plugin-unused-imports": "^4.4.1",
-    "typescript-eslint": "^8.59.4"
+    "typescript-eslint": "^8.60.0"
   },
   "peerDependencies": {
     "eslint": "^9.39.4"
