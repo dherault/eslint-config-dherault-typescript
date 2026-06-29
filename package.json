@@ -39,7 +39,7 @@
     "eslint-plugin-tailwindcss-order": "^3.0.0",
     "eslint-plugin-type-imports": "^2.0.0",
     "eslint-plugin-unused-imports": "^4.4.1",
-    "typescript-eslint": "^8.60.1"
+    "typescript-eslint": "^8.62.0"
   },
   "peerDependencies": {
     "eslint": "^9.39.4"
