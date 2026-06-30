@@ -222,6 +222,11 @@ const eslintConfigDheraultTypescript = defineConfig([
               position: 'after',
             },
             {
+              pattern: '~graphql/*',
+              group: 'internal',
+              position: 'after',
+            },
+            {
               pattern: '~storage/*',
               group: 'internal',
               position: 'after',
